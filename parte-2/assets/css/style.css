@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    background-image: url(../imgs/Pink-Beach.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    color: rgb(171, 5, 152);
+    font-family: 'Roboto', sans-serif;
+
+}

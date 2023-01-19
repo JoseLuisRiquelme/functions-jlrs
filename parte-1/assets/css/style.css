@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/beach.jpg);
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+}
+#element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 10px;
+    font-size: 25px;
+    color: aqua;
+    
+}
